@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lead-101",
+    "name": "Alexander Vance",
+    "email": "a.vance@nexuspay.io",
+    "company": "Nexus Pay Inc.",
+    "phone": "+1 (555) 234-5678",
+    "details": "Looking to redesign our B2B payments dashboard with real-time settlement tracking and multi-currency billing.",
+    "budget": "$50,000 - $100,000",
+    "serviceInterest": "Custom SaaS & CRM",
+    "status": "scheduled",
+    "createdAt": "2026-07-21T12:12:48.518Z"
+  },
+  {
+    "id": "lead-102",
+    "name": "Elena Rostova",
+    "email": "elena@luminar-ai.com",
+    "company": "Luminar AI",
+    "phone": "+1 (555) 876-5432",
+    "details": "Need a high-performance landing engine and native iOS/Android application for our generative design assistant.",
+    "budget": "$25,000 - $50,000",
+    "serviceInterest": "Native Mobile Applications",
+    "status": "new",
+    "createdAt": "2026-07-22T12:12:48.519Z"
+  }
+]

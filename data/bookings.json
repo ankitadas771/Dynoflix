@@ -1,0 +1,14 @@
+[
+  {
+    "id": "booking-201",
+    "name": "Alexander Vance",
+    "email": "a.vance@nexuspay.io",
+    "company": "Nexus Pay Inc.",
+    "date": "2026-07-25",
+    "timeSlot": "02:00 PM EST",
+    "durationMinutes": 30,
+    "meetingType": "Discovery Call",
+    "notes": "Initial scope review for Nexus Pay dashboard rebuild.",
+    "createdAt": "2026-07-21T12:12:48.519Z"
+  }
+]
