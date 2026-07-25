@@ -5,7 +5,7 @@ export const WhatsAppButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
 
-  const phone = '919088514885'; // Updated WhatsApp number
+  const phone = '917439735126'; // Updated WhatsApp number
 
   const handleSendWhatsApp = (customMsg?: string) => {
     const textToSend = customMsg || message || 'Hello Dynoflix Engineering! I would like to enquire about your services.';
@@ -44,7 +44,7 @@ export const WhatsAppButton: React.FC = () => {
           </div>
 
           <div className="py-3 text-xs text-[#8A8A8A] leading-relaxed">
-            Hi there! 👋 Send your inquiry directly to our WhatsApp or call us at <span className="text-[#C9A96A] font-mono">+91 74397 35126</span>. Email: <span className="text-[#FFFFFF]">anjishnubiswasgogol@gmail.com</span>.
+            Hi there! 👋 Send your inquiry directly to our WhatsApp or call us at <span className="text-[#C9A96A] font-mono">+91 74397 35126</span>. Email: <span className="text-[#FFFFFF]">dynoflix.official@gmail.com</span>.
           </div>
 
           {/* Quick Prompts */}
