@@ -39,10 +39,9 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.3"
   },
- "reactSnap": {
-   "source": "dist",
-   "puppeteerExecutablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-   "puppeteerArgs": [
+"reactSnap": {
+    "source": "dist",
+    "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
     ]
