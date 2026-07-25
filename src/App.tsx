@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { TechMarquee } from './components/TechMarquee';
@@ -58,6 +59,12 @@ export default function App() {
   };
 
   return (
+    <>
+      <Helmet>
+        <title>Dynofkix | Official Site</title>
+        <meta name="description" content="Dynoflix delivers high-performance software solutions. We build custom SaaS platforms, scalable CRMs, and modern web apps tailored to your business." />
+        <link rel="canonical" href="https://dynofkix.vercel.app/" />
+      </Helmet>
     <div className="min-h-screen bg-[#0B0B0B] text-[#FFFFFF] font-sans selection:bg-[#C9A96A] selection:text-[#0B0B0B] relative">
       {/* Toast Banner */}
       {toast && (
@@ -131,5 +138,7 @@ export default function App() {
         onUpdateCount={(newCount) => setLeadCount(newCount)}
       />
     </div>
+  
+    </>
   );
 }
