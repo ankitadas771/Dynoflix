@@ -7,7 +7,7 @@ export const LeadershipSection: React.FC = () => {
     `Hello Anjishnu,\n\n` +
     `I would like to discuss a high-priority engineering project / proposal directly with leadership.`;
 
-  const anjishnuWhatsappUrl = `https://wa.me/919088514885?text=${encodeURIComponent(anjishnuWhatsappMessage)}`;
+  const anjishnuWhatsappUrl = `https://wa.me/917439735126?text=${encodeURIComponent(anjishnuWhatsappMessage)}`;
 
   const ankitaWhatsappMessage =
     `*Direct AI Leadership Inquiry*\n\n` +
@@ -69,15 +69,15 @@ export const LeadershipSection: React.FC = () => {
                 <div className="space-y-4 pt-4 border-t border-[#2A2A2A] mt-auto">
                   <div className="flex flex-col gap-2">
                     <a
-                      href="mailto:anjishnubiswasgogol@gmail.com"
+                      href="mailto:dynoflix.official@gmail.com"
                       className="inline-flex items-center gap-2 text-xs font-mono text-[#8A8A8A] hover:text-[#FFFFFF] transition-colors break-all"
                     >
                       <Mail className="w-3.5 h-3.5 text-[#C9A96A] shrink-0" />
-                      <span>anjishnubiswasgogol@gmail.com</span>
+                      <span>dynoflix.official@gmail.com</span>
                     </a>
 
                     <a
-                      href="tel:+919088514885"
+                      href="tel:+917439735126"
                       className="inline-flex items-center gap-2 text-xs font-mono text-[#8A8A8A] hover:text-[#FFFFFF] transition-colors"
                     >
                       <Phone className="w-3.5 h-3.5 text-[#C9A96A] shrink-0" />

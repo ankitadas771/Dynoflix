@@ -95,7 +95,7 @@ export const Footer: React.FC<FooterProps> = ({
             </a>
 
             <a
-              href="tel:+919088514885"
+              href="tel:+917439735126"
               className="flex items-center gap-2 text-[#C9A96A] font-mono hover:underline"
             >
               <Phone className="w-3.5 h-3.5" />
@@ -103,11 +103,11 @@ export const Footer: React.FC<FooterProps> = ({
             </a>
 
             <a
-              href="mailto:anjishnubiswasgogol@gmail.com"
+              href="mailto:dynoflix.official@gmail.com"
               className="flex items-center gap-2 text-[#FFFFFF] hover:text-[#C9A96A] transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-[#C9A96A]" />
-              <span>anjishnubiswasgogol@gmail.com</span>
+              <span>dynoflix.official@gmail.com</span>
             </a>
           </div>
         </div>

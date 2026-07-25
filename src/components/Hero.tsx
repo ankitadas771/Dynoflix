@@ -62,7 +62,7 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Direct WhatsApp CTA */}
             <a
               id="hero-whatsapp-btn"
-              href="https://wa.me/919088514885?text=Hello!%20I%20would%20like%20to%20enquire%20about%20your%20services."
+              href="https://wa.me/917439735126?text=Hello!%20I%20would%20like%20to%20enquire%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 py-4 rounded-xl bg-[#1A1A1A] border border-[#27C93F]/40 text-[#27C93F] font-semibold text-sm transition-all duration-300 hover:border-[#27C93F] hover:bg-[#27C93F]/10 flex items-center justify-center gap-2 cursor-pointer"
@@ -74,7 +74,7 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Direct Call CTA */}
             <a
               id="hero-call-btn"
-              href="tel:+919088514885"
+              href="tel:+917439735126"
               className="w-full sm:w-auto px-6 py-4 rounded-xl bg-[#1A1A1A] border border-[#2A2A2A] text-[#FFFFFF] font-semibold text-sm transition-all duration-300 hover:border-[#C9A96A]/60 hover:bg-[#222222] flex items-center justify-center gap-2 cursor-pointer"
             >
               <Phone className="w-4 h-4 text-[#C9A96A]" />
@@ -133,7 +133,7 @@ export const Hero: React.FC<HeroProps> = ({
                   </div>
                   <div>
                     <div className="text-xs font-semibold text-[#FFFFFF]">Direct Lead Enquiries</div>
-                    <div className="text-[11px] font-mono text-[#8A8A8A]">anjishnubiswasgogol@gmail.com</div>
+                    <div className="text-[11px] font-mono text-[#8A8A8A]">dynoflix.official@gmail.com</div>
                   </div>
                 </div>
                 <button
