@@ -65,7 +65,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       `*Phone:* ${payload.phone}\n\n` +
       `*Project Details & Scope:*\n${payload.details}`;
 
-    const whatsappUrl = `https://wa.me/919088514885?text=${encodeURIComponent(formattedMessage)}`;
+    const whatsappUrl = `https://wa.me/917439735126?text=${encodeURIComponent(formattedMessage)}`;
 
     try {
       // Save lead submission to Admin Portal local database
@@ -94,7 +94,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
   };
 
   const generateWhatsAppUrl = () => {
-    if (!lastSubmittedData) return 'https://wa.me/919088514885';
+    if (!lastSubmittedData) return 'https://wa.me/917439735126';
     const text =
       `*New Direct Proposal Request*\n\n` +
       `*Service Interest:* ${lastSubmittedData.serviceInterest}\n` +
@@ -103,20 +103,20 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       `*Company:* ${lastSubmittedData.company || 'N/A'}\n` +
       `*Phone:* ${lastSubmittedData.phone || 'N/A'}\n\n` +
       `*Project Details & Scope:*\n${lastSubmittedData.details}`;
-    return `https://wa.me/919088514885?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/917439735126?text=${encodeURIComponent(text)}`;
   };
 
   const generateEmailMailtoUrl = () => {
     if (!lastSubmittedData) return 'mailto:anjishnubiswasgogol@gmail.com';
     const subject = `New Lead Enquiry: ${lastSubmittedData.serviceInterest} - ${lastSubmittedData.name}`;
-    const body = `Hello Pulse Agency,\n\nHere are the enquiry details:\n\n` +
+    const body = `Hello Dynoflix Agency,\n\nHere are the enquiry details:\n\n` +
       `Name: ${lastSubmittedData.name}\n` +
       `Email: ${lastSubmittedData.email}\n` +
       `Company: ${lastSubmittedData.company || 'N/A'}\n` +
       `Phone: ${lastSubmittedData.phone || 'N/A'}\n` +
       `Service Interest: ${lastSubmittedData.serviceInterest}\n` +
       `Details:\n${lastSubmittedData.details}\n\n` +
-      `Sent via Pulse Digital Agency Web Portal.`;
+      `Sent via Dynoflix Digital Agency Web Portal.`;
     return `mailto:anjishnubiswasgogol@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
@@ -132,7 +132,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                 <span className="text-[#C9A96A]">Extraordinary</span>
               </h2>
               <p className="text-base text-[#8A8A8A] leading-relaxed mb-8">
-                Share your project requirements, timeline, and scope. All enquiries are delivered directly to <span className="text-[#FFFFFF] font-semibold">anjishnubiswasgogol@gmail.com</span> and sent to WhatsApp / Calls at <span className="text-[#C9A96A] font-mono font-semibold">+91 90885 14885</span>.
+                Share your project requirements, timeline, and scope. All enquiries are delivered directly to <span className="text-[#FFFFFF] font-semibold">anjishnubiswasgogol@gmail.com</span> and sent to WhatsApp / Calls at <span className="text-[#C9A96A] font-mono font-semibold">+91 74397 35126</span>.
               </p>
 
               {/* Direct Contacts Info */}
@@ -164,14 +164,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                   <div>
                     <div className="text-[10px] font-mono text-[#8A8A8A] uppercase">Direct Call Number</div>
                     <div className="text-sm font-semibold text-[#FFFFFF] group-hover:text-[#C9A96A] transition-colors font-mono">
-                      +91 90885 14885
+                      +91 74397 35126
                     </div>
                   </div>
                 </a>
 
                 {/* Direct WhatsApp Card */}
                 <a
-                  href="https://wa.me/919088514885?text=Hello!%20I%20would%20like%20to%20send%20an%20enquiry%20regarding%20your%20services."
+                  href="https://wa.me/917439735126?text=Hello!%20I%20would%20like%20to%20send%20an%20enquiry%20regarding%20your%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-xl bg-[#1A1A1A] border border-[#27C93F]/30 hover:border-[#27C93F] transition-all group cursor-pointer"
@@ -182,7 +182,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                   <div>
                     <div className="text-[10px] font-mono text-[#27C93F] uppercase font-bold">WhatsApp Direct Line</div>
                     <div className="text-sm font-semibold text-[#FFFFFF] group-hover:text-[#27C93F] transition-colors font-mono">
-                      +91 90885 14885
+                      +91 74397 35126
                     </div>
                   </div>
                 </a>
@@ -219,7 +219,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     className="w-full py-3.5 px-4 rounded-xl bg-[#27C93F] text-[#0B0B0B] font-bold text-xs uppercase tracking-wider hover:bg-[#2edb47] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-[0_0_20px_rgba(39,201,63,0.3)]"
                   >
                     <MessageSquare className="w-4 h-4 fill-[#0B0B0B] stroke-none" />
-                    <span>Send Enquiry to WhatsApp (+91 90885 14885)</span>
+                    <span>Send Enquiry to WhatsApp (+91 74397 35126)</span>
                   </a>
 
                   <a
@@ -227,15 +227,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     className="w-full py-3.5 px-4 rounded-xl bg-[#C9A96A] text-[#0B0B0B] font-bold text-xs uppercase tracking-wider hover:bg-[#D4B87C] transition-colors flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <Mail className="w-4 h-4" />
-                    <span>Email to anjishnubiswasgogol@gmail.com</span>
+                    <span>Email to dynoflix.official@gmail.com</span>
                   </a>
 
                   <a
-                    href="tel:+919088514885"
+                    href="tel:+917439735126"
                     className="w-full py-3.5 px-4 rounded-xl bg-[#0B0B0B] border border-[#2A2A2A] text-[#FFFFFF] font-bold text-xs uppercase tracking-wider hover:border-[#C9A96A] transition-colors flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <Phone className="w-4 h-4 text-[#C9A96A]" />
-                    <span>Call +91 90885 14885</span>
+                    <span>Call +91 74397 35126</span>
                   </a>
                 </div>
 
@@ -336,7 +336,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       type="tel"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+91 90885 14885"
+                      placeholder="+91 74397 35126"
                       className="w-full bg-[#0B0B0B] border border-[#2A2A2A] rounded-lg px-4 py-3 text-sm text-[#FFFFFF] placeholder-[#555555] focus:outline-none focus:border-[#C9A96A]"
                     />
                   </div>

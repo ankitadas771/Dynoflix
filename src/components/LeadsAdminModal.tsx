@@ -136,7 +136,7 @@ export const LeadsAdminModal: React.FC<LeadsAdminModalProps> = ({
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', `pulse_leads_export_${new Date().toISOString().split('T')[0]}.csv`);
+    link.setAttribute('download', `Dynoflix_leads_export_${new Date().toISOString().split('T')[0]}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -257,7 +257,7 @@ export const LeadsAdminModal: React.FC<LeadsAdminModalProps> = ({
             </div>
             <div>
               <h3 className="text-xl font-bold text-[#FFFFFF] flex items-center gap-2">
-                Pulse Admin Lead Portal
+                Dynoflix Admin Lead Portal
                 <span className="text-xs font-mono text-[#27C93F] bg-[#27C93F]/10 px-2 py-0.5 rounded border border-[#27C93F]/20">
                   Authenticated
                 </span>

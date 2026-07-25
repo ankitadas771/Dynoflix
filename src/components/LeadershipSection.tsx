@@ -62,7 +62,7 @@ export const LeadershipSection: React.FC = () => {
 
                 {/* Bio */}
                 <p className="text-[#8A8A8A] text-xs sm:text-sm leading-relaxed mb-6">
-                  Oversees overall company operations, drives high-level business strategy, and partners directly with enterprise clients to ensure Pulse delivers premium, high-impact SaaS and digital solutions. With a focus on strategic growth, operational authority, and client success, he leads execution across all initiatives to turn ambitious vision into scalable digital dominance.
+                  Oversees overall company operations, drives high-level business strategy, and partners directly with enterprise clients to ensure Dynoflix delivers premium, high-impact SaaS and digital solutions. With a focus on strategic growth, operational authority, and client success, he leads execution across all initiatives to turn ambitious vision into scalable digital dominance.
                 </p>
 
                 {/* Contact Links & Actions */}
@@ -81,7 +81,7 @@ export const LeadershipSection: React.FC = () => {
                       className="inline-flex items-center gap-2 text-xs font-mono text-[#8A8A8A] hover:text-[#FFFFFF] transition-colors"
                     >
                       <Phone className="w-3.5 h-3.5 text-[#C9A96A] shrink-0" />
-                      <span>+91 90885 14885</span>
+                      <span>+91 74397 35126</span>
                     </a>
                   </div>
 

@@ -1,5 +1,5 @@
 {
-  "name": "Pulse",
+  "name": "Dynoflix",
   "description": "Premium digital agency and SaaS showcase platform featuring AI engineering, interactive bento grid, lead capture engine, and meeting scheduler.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

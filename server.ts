@@ -15,7 +15,7 @@ async function startServer() {
 
   // Healthcheck API
   app.get('/api/health', (req, res) => {
-    res.json({ status: 'ok', app: 'Pulse Platform', timestamp: new Date().toISOString() });
+    res.json({ status: 'ok', app: 'Dynoflix Platform', timestamp: new Date().toISOString() });
   });
 
   // Leads API Routes
@@ -50,7 +50,7 @@ async function startServer() {
         serviceInterest: serviceInterest || 'General Inquiry',
       });
 
-      console.log(`[Pulse DB] New lead captured: ${newLead.id} - ${newLead.name} (${newLead.email})`);
+      console.log(`[Dynoflix DB] New lead captured: ${newLead.id} - ${newLead.name} (${newLead.email})`);
       return res.status(201).json({
         success: true,
         message: 'Lead submission saved successfully to database.',
@@ -129,7 +129,7 @@ async function startServer() {
         notes: notes || '',
       });
 
-      console.log(`[Pulse DB] New meeting scheduled: ${newBooking.id} for ${newBooking.name} on ${newBooking.date} at ${newBooking.timeSlot}`);
+      console.log(`[Dynoflix DB] New meeting scheduled: ${newBooking.id} for ${newBooking.name} on ${newBooking.date} at ${newBooking.timeSlot}`);
 
       // Attempt server-side Web3Forms email dispatch
       let emailDispatched = false;
@@ -146,7 +146,7 @@ async function startServer() {
           body: JSON.stringify({
             access_key: apiKeyToUse,
             subject: `New Call Booking: ${meetingType} from ${name}`,
-            from_name: 'Pulse Agency Calendar System',
+            from_name: 'Dynoflix Agency Calendar System',
             to_email: 'anjishnubiswasgogol@gmail.com',
             recipient_email: 'anjishnubiswasgogol@gmail.com',
             name,
@@ -231,7 +231,7 @@ async function startServer() {
       }
 
       const ai = new GoogleGenAI({ apiKey });
-      const prompt = `You are the Principal Lead Architect at Pulse, a elite AI-powered digital agency.
+      const prompt = `You are the Principal Lead Architect at Dynoflix, a elite AI-powered digital agency.
 Analyze the following client project request and generate a detailed structured JSON technical estimate.
 
 Client Project Details:
@@ -294,7 +294,7 @@ Return ONLY valid JSON matching this exact structure:
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`⚡ [Pulse Agency Backend] Server running on http://0.0.0.0:${PORT}`);
+    console.log(`⚡ [Dynoflix Agency Backend] Server running on http://0.0.0.0:${PORT}`);
   });
 }
 

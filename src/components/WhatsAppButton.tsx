@@ -8,7 +8,7 @@ export const WhatsAppButton: React.FC = () => {
   const phone = '919088514885'; // Updated WhatsApp number
 
   const handleSendWhatsApp = (customMsg?: string) => {
-    const textToSend = customMsg || message || 'Hello Pulse Engineering! I would like to enquire about your services.';
+    const textToSend = customMsg || message || 'Hello Dynoflix Engineering! I would like to enquire about your services.';
     const encoded = encodeURIComponent(textToSend);
     window.open(`https://wa.me/${phone}?text=${encoded}`, '_blank');
     setIsOpen(false);
@@ -32,7 +32,7 @@ export const WhatsAppButton: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-xs font-bold text-[#FFFFFF]">Direct WhatsApp Support</h4>
-                <span className="text-[10px] font-mono text-[#27C93F]">+91 90885 14885</span>
+                <span className="text-[10px] font-mono text-[#27C93F]">+91 74397 35126</span>
               </div>
             </div>
             <button
@@ -44,14 +44,14 @@ export const WhatsAppButton: React.FC = () => {
           </div>
 
           <div className="py-3 text-xs text-[#8A8A8A] leading-relaxed">
-            Hi there! 👋 Send your inquiry directly to our WhatsApp or call us at <span className="text-[#C9A96A] font-mono">+91 90885 14885</span>. Email: <span className="text-[#FFFFFF]">anjishnubiswasgogol@gmail.com</span>.
+            Hi there! 👋 Send your inquiry directly to our WhatsApp or call us at <span className="text-[#C9A96A] font-mono">+91 74397 35126</span>. Email: <span className="text-[#FFFFFF]">anjishnubiswasgogol@gmail.com</span>.
           </div>
 
           {/* Quick Prompts */}
           <div className="space-y-1.5 mb-3">
             {[
               'I need a Custom SaaS proposal',
-              'Schedule a technical call on +91 90885 14885',
+              'Schedule a technical call on +91 74397 35126',
               'Send proposal details to my email',
             ].map((prompt, idx) => (
               <button

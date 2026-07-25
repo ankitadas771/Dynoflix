@@ -50,7 +50,7 @@ export const Navbar: React.FC<NavbarProps> = ({
          <a href="/" id="brand-logo-link" className="flex items-center cursor-pointer">
   <img 
     src="/logo.jpg" 
-    alt="Pulse Agency Logo" 
+    alt="Dynoflix Agency Logo" 
     className="h-10 w-auto object-contain" 
   />
 </a>
@@ -84,7 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="text-xs font-mono text-[#C9A96A] hover:text-[#FFFFFF] transition-colors flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#1A1A1A] border border-[#2A2A2A]"
           >
             <Phone className="w-3.5 h-3.5" />
-            <span>+91 90885 14885</span>
+            <span>+91 74397 35126</span>
           </a>
         </nav>
 
@@ -153,21 +153,21 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           <a
-            href="https://wa.me/919088514885?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services."
+            href="https://wa.me/917439735126?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20services."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 py-2 text-sm font-mono text-[#27C93F] border-b border-[#1A1A1A]"
           >
             <MessageSquare className="w-4 h-4" />
-            <span>WhatsApp: +91 90885 14885</span>
+            <span>WhatsApp: +91 74397 35126</span>
           </a>
 
           <a
-            href="tel:+919088514885"
+            href="tel:+917439735126"
             className="flex items-center gap-2 py-2 text-sm font-mono text-[#C9A96A] border-b border-[#1A1A1A]"
           >
             <Phone className="w-4 h-4" />
-            <span>Call: +91 90885 14885</span>
+            <span>Call: +91 74397 35126</span>
           </a>
 
           <div className="pt-2 flex flex-col gap-3">

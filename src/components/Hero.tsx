@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({
             id="hero-subheadline"
             className="text-base sm:text-lg text-[#8A8A8A] max-w-2xl font-normal leading-relaxed mb-8"
           >
-            Pulse builds enterprise-grade SaaS platforms, native mobile applications,
+            Dynoflix builds enterprise-grade SaaS platforms, native mobile applications,
             and custom growth engines engineered for high performance, conversion, and operational speed.
           </p>
 
@@ -68,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({
               className="w-full sm:w-auto px-6 py-4 rounded-xl bg-[#1A1A1A] border border-[#27C93F]/40 text-[#27C93F] font-semibold text-sm transition-all duration-300 hover:border-[#27C93F] hover:bg-[#27C93F]/10 flex items-center justify-center gap-2 cursor-pointer"
             >
               <MessageSquare className="w-4 h-4 fill-[#27C93F] stroke-none" />
-              <span>WhatsApp +91 90885 14885</span>
+              <span>WhatsApp +91 74397 35126</span>
             </a>
 
             {/* Direct Call CTA */}
@@ -78,7 +78,7 @@ export const Hero: React.FC<HeroProps> = ({
               className="w-full sm:w-auto px-6 py-4 rounded-xl bg-[#1A1A1A] border border-[#2A2A2A] text-[#FFFFFF] font-semibold text-sm transition-all duration-300 hover:border-[#C9A96A]/60 hover:bg-[#222222] flex items-center justify-center gap-2 cursor-pointer"
             >
               <Phone className="w-4 h-4 text-[#C9A96A]" />
-              <span>Call +91 90885 14885</span>
+              <span>Call +91 74397 35126</span>
             </a>
           </div>
 
@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({
                 <span className="w-3 h-3 rounded-full bg-[#FF5F56]/80" />
                 <span className="w-3 h-3 rounded-full bg-[#FFBD2E]/80" />
                 <span className="w-3 h-3 rounded-full bg-[#27C93F]/80" />
-                <span className="ml-2 font-mono text-xs text-[#8A8A8A]">pulse-core-v4.2.0</span>
+                <span className="ml-2 font-mono text-xs text-[#8A8A8A]">Dynoflix-core-v4.2.0</span>
               </div>
               <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#27C93F]/10 text-[#27C93F] text-[10px] font-mono border border-[#27C93F]/20">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#27C93F] animate-ping" />
@@ -117,7 +117,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <span className="font-mono text-xs text-[#C9A96A]">42ms lat</span>
                 </div>
                 <div className="w-full bg-[#1A1A1A] h-2 rounded-full overflow-hidden">
-                  <div className="bg-gradient-to-r from-[#C9A96A] to-[#E2C889] h-full w-[88%] rounded-full animate-pulse" />
+                  <div className="bg-gradient-to-r from-[#C9A96A] to-[#E2C889] h-full w-[88%] rounded-full animate-Dynoflix" />
                 </div>
                 <div className="flex justify-between items-center mt-2 text-[11px] text-[#8A8A8A] font-mono">
                   <span>14,200 req/sec</span>
@@ -150,7 +150,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <ShieldCheck className="w-4 h-4 text-[#C9A96A]" />
                   Protected & Instant WhatsApp Sync
                 </span>
-                <span className="font-mono text-[10px] text-[#27C93F]">+91 90885 14885</span>
+                <span className="font-mono text-[10px] text-[#27C93F]">+91 74397 35126</span>
               </div>
             </div>
           </div>
