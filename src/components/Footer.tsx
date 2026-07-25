@@ -85,7 +85,7 @@ export const Footer: React.FC<FooterProps> = ({
           </p>
           <div className="flex flex-col gap-2.5 pt-1 text-xs">
             <a
-              href="https://wa.me/919088514885?text=Hello!%20I%20would%20like%20to%20enquire%20about%20your%20services."
+              href="https://wa.me/917439735126?text=Hello!%20I%20would%20like%20to%20enquire%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#27C93F] font-mono hover:underline"

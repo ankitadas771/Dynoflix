@@ -117,7 +117,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       `Service Interest: ${lastSubmittedData.serviceInterest}\n` +
       `Details:\n${lastSubmittedData.details}\n\n` +
       `Sent via Dynoflix Digital Agency Web Portal.`;
-    return `mailto:anjishnubiswasgogol@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    return `mailto:dynoflix.official@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   return (
@@ -132,14 +132,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                 <span className="text-[#C9A96A]">Extraordinary</span>
               </h2>
               <p className="text-base text-[#8A8A8A] leading-relaxed mb-8">
-                Share your project requirements, timeline, and scope. All enquiries are delivered directly to <span className="text-[#FFFFFF] font-semibold">anjishnubiswasgogol@gmail.com</span> and sent to WhatsApp / Calls at <span className="text-[#C9A96A] font-mono font-semibold">+91 74397 35126</span>.
+                Share your project requirements, timeline, and scope. All enquiries are delivered directly to <span className="text-[#FFFFFF] font-semibold">dynoflix.official@gmail.com</span> and sent to WhatsApp / Calls at <span className="text-[#C9A96A] font-mono font-semibold">+91 74397 35126</span>.
               </p>
 
               {/* Direct Contacts Info */}
               <div className="space-y-4 mb-8">
                 {/* Direct Email Card */}
                 <a
-                  href="mailto:anjishnubiswasgogol@gmail.com"
+                  href="mailto:dynoflix.official@gmail.com"
                   className="flex items-center gap-3 p-4 rounded-xl bg-[#1A1A1A] border border-[#2A2A2A] hover:border-[#C9A96A]/60 transition-all group cursor-pointer"
                 >
                   <div className="w-10 h-10 rounded-lg bg-[#0B0B0B] border border-[#222222] flex items-center justify-center text-[#C9A96A] group-hover:border-[#C9A96A]">
@@ -148,7 +148,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                   <div>
                     <div className="text-[10px] font-mono text-[#8A8A8A] uppercase">Direct Email Recipient</div>
                     <div className="text-sm font-semibold text-[#FFFFFF] group-hover:text-[#C9A96A] transition-colors">
-                      anjishnubiswasgogol@gmail.com
+                      dynoflix.official@gmail.com
                     </div>
                   </div>
                 </a>
